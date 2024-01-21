@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className={styles.center}>
         <div>
-          <a href="/api/auth/login">Log in</a>
+          <a href="/api/auth/login">Log in / Sign up</a>
         </div>
         <div>
           {/* TODO redirect on login instead of link */}
