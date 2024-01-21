@@ -6,22 +6,16 @@ Contents:
 
 - [Bitcoin wallet](#bitcoin-wallet)
   - [Install](#install)
-  - [Test, run](#test-run)
+  - [Test, build, run](#test-build-run)
   - [Tech](#tech)
 
 ## Install
 
-```sh
-npm ci
-```
+TODO
 
-## Test, run
+## Test, build, run
 
-<!-- TODO test -->
-
-```sh
-npm run dev
-```
+TODO
 
 ## Tech
 
