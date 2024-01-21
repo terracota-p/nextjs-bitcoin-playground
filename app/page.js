@@ -10,9 +10,13 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Link href="/login">
-          <span>Log in</span>
-        </Link>
+        <div>
+          <a href="/api/auth/login">Log in</a>
+        </div>
+        <div>
+          {/* TODO redirect on login instead of link */}
+          <a href="/wallet">Wallet</a>
+        </div>
       </div>
     </main>
   );
