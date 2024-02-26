@@ -1,0 +1,35 @@
+{
+  "name": "nextjs-bitcoin-playground",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "create-db-tables": "node ./scripts/db-create-tables.js",
+    "test": "vitest",
+    "test-e2e": "playwright test"
+  },
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^3.5.0",
+    "@vercel/postgres": "^0.7.1",
+    "next": "14.1.0",
+    "plaid": "^19.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-plaid-link": "^3.5.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.1",
+    "@testing-library/react": "^14.1.2",
+    "@types/node": "^20.11.6",
+    "@vitejs/plugin-react": "^4.2.1",
+    "dotenv": "^16.3.2",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "jsdom": "^24.0.0",
+    "vitest": "^1.2.1"
+  }
+}
