@@ -1,4 +1,4 @@
-# Nextjs bitcoing playground
+# Nextjs bitcoin playground
 
 A small custodial wallet app that demos an end-to-end purchase of bitcoin with fiat.
 
@@ -6,7 +6,7 @@ Deployed to <https://nextjs-bitcoin-playground.vercel.app/> (not connected to a 
 
 Contents:
 
-- [Nextjs bitcoing playground](#nextjs-bitcoing-playground)
+- [Nextjs bitcoin playground](#nextjs-bitcoin-playground)
   - [Install](#install)
   - [Test](#test)
   - [Run](#run)
